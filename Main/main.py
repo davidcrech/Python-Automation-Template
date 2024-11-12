@@ -12,7 +12,7 @@ from selenium.webdriver.chrome.service import Service
 # Caminho para a raiz do projeto
 ROOT_FOLDER = Path(__file__).parent
 # Caminho para a pasta onde o chromedriver está
-CHROME_DRIVER_PATH = ROOT_FOLDER / 'bin' / 'chromedriver.exe'
+CHROME_DRIVER_PATH = ROOT_FOLDER / 'drivers' / 'chromedriver'
 
 
 def make_chrome_browser(*options: str) -> webdriver.Chrome:
